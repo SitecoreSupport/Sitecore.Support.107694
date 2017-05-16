@@ -2000,10 +2000,6 @@ scSitecore.prototype.registerLaunchpadClick = function () {
   }
 };
 
-scSitecore.prototype.expandMessageBarDetails = function (evt) {
-    evt.currentTarget.parentNode.parentNode.classList.toggle("scExpanded");
-}
-
 function scRequestHandler() {
   for (var n = scForm.requests.length - 1; n >= 0; n--) {
     var request = scForm.requests[n];
